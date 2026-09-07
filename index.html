@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zenith Learning Academy — Admissions Open 2026-27</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============ NAVIGATION BAR ============ -->
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="#home" class="brand">
+        <span class="brand-crest" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><path d="M20 4 L36 12 L20 20 L4 12 Z" class="crest-line"/><path d="M10 16 V26 Q20 34 30 26 V16" class="crest-line"/></svg>
+        </span>
+        Zenith Learning Academy
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#courses">Admissions/Courses</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#contact" class="nav-cta">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO SECTION ============ -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="hero-eyebrow">Admissions open for the 2026–27 batch</p>
+
+        <!-- Dynamic headline: the highlighted phrase rotates via script.js -->
+        <h1>
+          Serious coaching for
+          <span id="dynamicWord" class="dynamic-word">JEE Main & Advanced</span>
+        </h1>
+
+        <p class="hero-desc">Small batches, weekly tests, and faculty who track every
+          student's progress individually — not just the class average.</p>
+
+        <div class="hero-buttons">
+          <a href="#courses" class="btn btn-solid">Explore courses</a>
+          <a href="#contact" class="btn btn-outline-light">Book a free demo class</a>
+        </div>
+
+        <!-- Announcement highlights strip -->
+        <ul class="hero-ticker">
+          <li><strong>New:</strong> NEET 2027 foundation batch starts 1 Oct</li>
+          <li><strong>Scholarship test:</strong> 15 Sept — up to 50% fee waiver</li>
+          <li><strong>Result:</strong> 34 students in top 1 percentile, Boards 2026</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT US SECTION ============ -->
+    <section class="about" id="about">
+      <div class="section-inner about-inner">
+        <div class="about-text">
+          <h2>Twelve years of getting students into the college they wanted</h2>
+          <p>Zenith Learning Academy was founded in 2014 by a group of IIT and AIIMS alumni
+            who wanted coaching that felt more like mentorship than a lecture hall. We keep
+            batches small on purpose — every student is known by name, not roll number.</p>
+          <p>We run programmes for Class 9–10 foundation, Class 11–12 with Board integration,
+            and dedicated JEE and NEET dropper batches.</p>
+        </div>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">Years teaching</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">3,400+</span>
+            <span class="stat-label">Students mentored</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">1:20</span>
+            <span class="stat-label">Faculty-to-student ratio</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ADMISSIONS / COURSES SECTION ============ -->
+    <section class="courses" id="courses">
+      <div class="section-inner">
+        <h2>Courses & admissions</h2>
+        <p class="section-lead">Pick a track below, or write to us if you're not sure which
+          one fits — we're happy to talk it through.</p>
+
+        <div class="courses-grid">
+          <article class="course-card">
+            <span class="course-tag">Class 9–10</span>
+            <h3>Foundation Programme</h3>
+            <p>Builds concept strength in Maths and Science ahead of Boards and future
+              competitive exams.</p>
+            <a href="#contact" class="course-link">Enquire about this course →</a>
+          </article>
+
+          <article class="course-card">
+            <span class="course-tag">Class 11–12</span>
+            <h3>JEE Main & Advanced</h3>
+            <p>Physics, Chemistry and Maths coaching integrated with Board exam preparation,
+              with weekly All-India test series.</p>
+            <a href="#contact" class="course-link">Enquire about this course →</a>
+          </article>
+
+          <article class="course-card">
+            <span class="course-tag">Class 11–12</span>
+            <h3>NEET Preparation</h3>
+            <p>Physics, Chemistry and Biology, taught with a strong focus on NCERT depth and
+              timed practice tests.</p>
+            <a href="#contact" class="course-link">Enquire about this course →</a>
+          </article>
+
+          <article class="course-card">
+            <span class="course-tag">Dropper batch</span>
+            <h3>Board Exam Crash Course</h3>
+            <p>A focused revision track for students repeating Class 12 boards or aiming to
+              raise their percentage this year.</p>
+            <a href="#contact" class="course-link">Enquire about this course →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ANNOUNCEMENTS SECTION ============ -->
+    <section class="announcements" id="announcements">
+      <div class="section-inner">
+        <h2>Announcements</h2>
+        <p class="section-lead">Recent updates from the academy, newest first.</p>
+
+        <ul class="announcement-list">
+          <li class="announcement-item">
+            <span class="announcement-date">2 Sep 2026</span>
+            <div>
+              <h3>NEET 2027 foundation batch — admissions open</h3>
+              <p>New batch begins 1 October for students currently in Class 11. Limited to
+                40 seats.</p>
+            </div>
+          </li>
+          <li class="announcement-item">
+            <span class="announcement-date">20 Aug 2026</span>
+            <div>
+              <h3>Scholarship test on 15 September</h3>
+              <p>Open to Class 9–12 students. Top performers receive fee waivers of up to
+                50 percent across all programmes.</p>
+            </div>
+          </li>
+          <li class="announcement-item">
+            <span class="announcement-date">3 Aug 2026</span>
+            <div>
+              <h3>Board results 2026: 34 students in the top 1 percentile</h3>
+              <p>Congratulations to our Class 12 batch — the highest number of top scorers
+                in the academy's history.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT US SECTION ============ -->
+    <section class="contact" id="contact">
+      <div class="section-inner contact-inner">
+        <div class="contact-left">
+          <h2>Get in touch</h2>
+          <p class="section-lead">Send an inquiry and we'll reply on WhatsApp, or reach the
+            admissions desk directly.</p>
+
+          <div class="direct-actions">
+            <a href="tel:8639641523" class="btn btn-solid btn-block">
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h4l2 5-2.5 1.5a11 11 0 0 0 5 5L16 12l5 2v4a2 2 0 0 1-2 2C10.5 20 4 13.5 4 5a2 2 0 0 1 2-2z"/></svg>
+              Call now
+            </a>
+            <a href="https://wa.me/918639641523" target="_blank" rel="noopener" class="btn btn-outline btn-block">
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l1.4-4.1A8 8 0 1 1 9 18.6z"/><path d="M9 9c0 3 3 6 6 6"/></svg>
+              WhatsApp us
+            </a>
+          </div>
+        </div>
+
+        <form id="inquiryForm" class="inquiry-form" novalidate>
+          <div class="form-row">
+            <label for="fullName">Full name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Student or parent's name" required>
+            <span class="error-msg" id="fullNameError"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="mobile">Mobile number</label>
+            <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile number" required>
+            <span class="error-msg" id="mobileError"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="inquiryType">Inquiry type</label>
+            <select id="inquiryType" name="inquiryType" required>
+              <option value="" disabled selected>Select an inquiry type</option>
+              <option value="Admissions">Admissions</option>
+              <option value="Course details">Course details</option>
+              <option value="Scholarship test">Scholarship test</option>
+              <option value="Fee structure">Fee structure</option>
+              <option value="Other">Other</option>
+            </select>
+            <span class="error-msg" id="inquiryTypeError"></span>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us which class or course you're asking about" required></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+
+          <button type="submit" class="btn btn-solid btn-block">Send inquiry on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Zenith Learning Academy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
